@@ -7,13 +7,12 @@
 
 import SwiftUI
 
-struct RedCircle: View {
+struct ColoredCircle: View {
     var opacity: Double
-    
-    static var shared = RedCircle(opacity: 0.4)
+    var color: UIColor
     
     var body: some View {
-        Color(.red)
+        Color(color)
             .opacity(opacity)
             .frame(width: 140, height: 140)
             .clipShape(Circle())
@@ -23,6 +22,6 @@ struct RedCircle: View {
 
 struct RedCircle_Previews: PreviewProvider {
     static var previews: some View {
-        RedCircle(opacity: 0.4)
+        ColoredCircle(opacity: 0.4, color: .red)
     }
 }

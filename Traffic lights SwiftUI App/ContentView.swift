@@ -25,8 +25,6 @@ struct ContentView: View {
             Button(buttonText) {
                 changeColor()
             }
-            
-            
         }
         .frame(maxWidth: .infinity)
         .padding()
@@ -36,20 +34,16 @@ struct ContentView: View {
     func changeColor() {
         if opacityRed < 1 && opacityYellow < 1 && opacityGreen < 1  {
             opacityRed = 1
-            RedCircle.shared.opacity = opacityRed
             buttonText = "NEXT"
         } else if opacityRed == 1.0 && opacityYellow < 1 && opacityGreen < 1 {
             opacityRed = 0.4
             opacityYellow = 1
-            YellowCircle.shared.opacity = opacityYellow
         } else if opacityRed < 1 && opacityYellow == 1 && opacityGreen < 1 {
             opacityYellow = 0.4
             opacityGreen = 1
-            GreenCircle.shared.opacity = opacityGreen
         } else if opacityRed < 1 && opacityYellow < 1 && opacityGreen == 1 {
             opacityGreen = 0.4
             opacityRed = 1
-            RedCircle.shared.opacity = opacityRed
         }
     }
 }

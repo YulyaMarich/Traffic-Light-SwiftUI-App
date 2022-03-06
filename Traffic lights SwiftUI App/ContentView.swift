@@ -17,9 +17,9 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            RedCircle(opacity: opacityRed)
-            YellowCircle(opacity: opacityYellow)
-            GreenCircle(opacity: opacityGreen)
+            ColoredCircle(opacity: opacityRed, color: .red)
+            ColoredCircle(opacity: opacityYellow, color: .yellow)
+            ColoredCircle(opacity: opacityGreen, color: .green)
                 .padding()
             Spacer()
             Button(buttonText) {

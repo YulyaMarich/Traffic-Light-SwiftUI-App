@@ -11,9 +11,7 @@
 		A369BC7C27C28F7200A73E72 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A369BC7B27C28F7200A73E72 /* ContentView.swift */; };
 		A369BC7E27C28F7400A73E72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A369BC7D27C28F7400A73E72 /* Assets.xcassets */; };
 		A369BC8127C28F7400A73E72 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A369BC8027C28F7400A73E72 /* Preview Assets.xcassets */; };
-		A369BC8827C28FA200A73E72 /* RedCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A369BC8727C28FA200A73E72 /* RedCircle.swift */; };
-		A369BC8A27C2935100A73E72 /* YellowCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A369BC8927C2935100A73E72 /* YellowCircle.swift */; };
-		A369BC8C27C2935E00A73E72 /* GreenCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A369BC8B27C2935E00A73E72 /* GreenCircle.swift */; };
+		A369BC8827C28FA200A73E72 /* ColoredCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A369BC8727C28FA200A73E72 /* ColoredCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,9 +20,7 @@
 		A369BC7B27C28F7200A73E72 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A369BC7D27C28F7400A73E72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A369BC8027C28F7400A73E72 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A369BC8727C28FA200A73E72 /* RedCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedCircle.swift; sourceTree = "<group>"; };
-		A369BC8927C2935100A73E72 /* YellowCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowCircle.swift; sourceTree = "<group>"; };
-		A369BC8B27C2935E00A73E72 /* GreenCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenCircle.swift; sourceTree = "<group>"; };
+		A369BC8727C28FA200A73E72 /* ColoredCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoredCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +55,7 @@
 			children = (
 				A369BC7927C28F7200A73E72 /* Traffic_lights_SwiftUI_AppApp.swift */,
 				A369BC7B27C28F7200A73E72 /* ContentView.swift */,
-				A369BC8727C28FA200A73E72 /* RedCircle.swift */,
-				A369BC8927C2935100A73E72 /* YellowCircle.swift */,
-				A369BC8B27C2935E00A73E72 /* GreenCircle.swift */,
+				A369BC8727C28FA200A73E72 /* ColoredCircle.swift */,
 				A369BC7D27C28F7400A73E72 /* Assets.xcassets */,
 				A369BC7F27C28F7400A73E72 /* Preview Content */,
 			);
@@ -146,11 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A369BC8827C28FA200A73E72 /* RedCircle.swift in Sources */,
+				A369BC8827C28FA200A73E72 /* ColoredCircle.swift in Sources */,
 				A369BC7C27C28F7200A73E72 /* ContentView.swift in Sources */,
-				A369BC8C27C2935E00A73E72 /* GreenCircle.swift in Sources */,
 				A369BC7A27C28F7200A73E72 /* Traffic_lights_SwiftUI_AppApp.swift in Sources */,
-				A369BC8A27C2935100A73E72 /* YellowCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
